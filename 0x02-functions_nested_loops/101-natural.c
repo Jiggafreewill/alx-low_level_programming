@@ -15,6 +15,6 @@ z += I;
 }
 I++;
 }
-printf(“%d\n” , z);
-return (0);
+printf("%d, %d\n", num, sum);
+return (0);
 }
