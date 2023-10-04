@@ -2,14 +2,14 @@
 #include <stdlib.h>
 
 /**
- * create_array - create an array of size 'size' and assign the character 'c'
- * @size: size of the array
- * @c: character to assign
+ * create_array - Creates an array of size 'size' and assigns the character 'c'.
+ * @size: The size of the array.
+ * @c: The character to assign.
  *
- * Description: Create an array of size 'size' and assign character 'c' to
+ * Description: Creates an array of size 'size' and assigns the character 'c' to
  * each element.
  *
- * Return: pointer to the array, NULL if size is 0 or if malloc fails
+ * Return: A pointer to the array, or NULL if size is 0 or if malloc fails.
  */
 char *create_array(unsigned int size, char c)
 {
