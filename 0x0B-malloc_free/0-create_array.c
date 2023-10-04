@@ -1,3 +1,6 @@
+#include "main.h"
+#include <stdlib.h>
+
 /**
  * create_array - Creates an array of size 'size' and assigns the character 'c'.
  * @size: The size of the array.
